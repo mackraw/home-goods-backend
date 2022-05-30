@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "keystone-next",
-    "start": "keystone"
+    "start": "keystone-next start",
+    "build": "keystone-next build"
   },
   "babel": {
     "presets": [
