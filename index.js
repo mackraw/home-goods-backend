@@ -1,16 +1,16 @@
-const { Keystone } = require('@keystonejs/keystone');
-const { GraphQLApp } = require('@keystonejs/app-graphql');
-const { AdminUIApp } = require('@keystonejs/app-admin-ui');
-const { MongooseAdapter: Adapter } = require('@keystonejs/adapter-mongoose');
+import { Keystone } from '@keystonejs/keystone';
+import { GraphQLApp } from '@keystonejs/app-graphql';
+import { AdminUIApp } from '@keystonejs/app-admin-ui';
+import { MongooseAdapter as Adapter } from '@keystonejs/adapter-mongoose';
 
-const PROJECT_NAME = 'home-goods-store-back';
+const PROJECT_NAME = 'homegoods-store-backend';
 const adapterConfig = { mongoUri: 'mongodb://localhost/home-goods-store-back' };
 
 const keystone = new Keystone({
   adapter: new Adapter(adapterConfig),
 });
 
-module.exports = {
+export default {
   keystone,
   apps: [
     new GraphQLApp(),

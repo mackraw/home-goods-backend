@@ -33,6 +33,10 @@
     "@keystone-next/fields": "^4.1.1",
     "@keystone-next/keystone": "^9.3.0",
     "@keystone-next/types": "^12.0.0",
+    "@keystonejs/adapter-mongoose": "^11.2.2",
+    "@keystonejs/app-admin-ui": "^7.5.2",
+    "@keystonejs/app-graphql": "^6.3.2",
+    "@keystonejs/keystone": "^19.3.4",
     "@keystonejs/server-side-graphql-client": "^1.1.2",
     "@types/nodemailer": "^6.4.0",
     "dotenv": "^8.2.0",
@@ -43,6 +47,8 @@
     "stripe": "^8.130.0"
   },
   "devDependencies": {
+    "@types/keystonejs__app-admin-ui": "^5.9.1",
+    "@types/keystonejs__app-graphql": "^5.1.1",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "babel-eslint": "^10.1.0",
