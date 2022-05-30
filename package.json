@@ -4,7 +4,8 @@
   "repository": "https://github.com/mackraw/store",
   "license": "MIT",
   "scripts": {
-    "dev": "keystone-next"
+    "dev": "keystone-next",
+    "start": "keystone"
   },
   "babel": {
     "presets": [
